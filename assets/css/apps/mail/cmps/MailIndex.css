@@ -1,0 +1,6 @@
+.mail-app-container {
+    display: flex;
+}
+.mail-app-container, .mail-list-container, .search {
+    width: 100%;
+}  

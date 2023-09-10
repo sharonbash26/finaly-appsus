@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+.mail-preview td{
+    padding: 1em;
+    text-align: left;
+}
+.mail-list-container {
+    background-color: rgb(243, 238, 238);
+    border-bottom: 1px solid #767474;
+    padding: 2em;
+    flex-grow: 1;
+  }
+  
+.mail-preview {
+    border-bottom: 1px solid #cbcbcb;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(243, 238, 238);
+
+  }
+  .mail-preview td {
+    padding: 1em;
+    width: 25%;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+  }
+  .mail-preview .time {
+    text-align: right; 
+  }
+  
+  .sender {
+    font-weight: bold;
+    margin-right: 1em;
+  }
+  li {
+    list-style: none;
+  }
+

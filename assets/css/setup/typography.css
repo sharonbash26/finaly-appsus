@@ -1,0 +1,9 @@
+@font-face {
+  font-family: roberto;
+  src: url("../../../assets/fonts/roberto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: sans;
+  src: url("../../../assets/fonts/sans/OpenSans_SemiCondensed-Regular.ttf");
+}

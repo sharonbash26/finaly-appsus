@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+.removeBtn{
+font-size: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.backBtn{
+    font-size: 35px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}

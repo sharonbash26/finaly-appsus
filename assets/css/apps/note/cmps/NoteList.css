@@ -1,0 +1,57 @@
+/* note list */
+  * {
+    font-family: "Roboto", sans-serif;
+}
+
+ .note-list {
+     padding: 0;
+     gap: 1em;
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+     margin-left: 1em;
+     margin-right: 1em;
+
+ }
+
+ .note-list .note-card {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     justify-self: center;
+     align-items: start;
+     padding: 0.5em;
+     
+     background: white;
+     width: 20em;
+     margin: 10px;
+     border: 1px solid grey;
+     border-radius: 10px;
+ 
+ }
+
+ .note-preview{
+    max-width: 100%;
+    word-wrap: break-word;
+    white-space: normal;
+ }
+
+ .note-footer {
+     display: flex;
+     margin-top: 1em;
+     align-self:flex-end;
+     gap: 0.2em;
+ }
+
+ .btn-note-remove{
+    background: none;
+    border: none;
+    cursor: pointer;
+
+ }
+
+ .btn-note-edit{
+    background: none;
+    border: none;
+    cursor: pointer;
+ }

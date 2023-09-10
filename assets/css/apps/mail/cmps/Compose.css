@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+.composeBtn {
+    background-color: rgb(176, 196, 234); 
+    height: 36px;             
+    width: 150px;            
+    text-align: center;
+    line-height: 36px;       
+    color: gray;           
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Helvetica, Arial, sans-serif; 
+    font-weight: 700;
+    font-size: 18px;         
+    border-radius: 5px;      
+    border: 1px solid #ccc;
+   
+
+}
+
+.composeIcon{
+    width: 22px;  
+    height: 22px;
+    margin-right: 6px
+}

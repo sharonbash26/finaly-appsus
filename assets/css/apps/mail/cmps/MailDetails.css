@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+.email-details {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.senderDetails{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.emailSuject {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.emailFromUser,
+.emailFrom {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.body {
+ 
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 170px; 
+ 
+}
+
+.btnInDetails {
+    display: flex;
+    gap: 10px;
+}
+
+.btnInDetails button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #555656; 
+    background-color: transparent; 
+    color: #111212; 
+    border-radius: 8px; 
+    transition: all 0.3s ease; 
+}
+
+.btnInDetails button:hover {
+    background-color: rgba(0, 123, 255, 0.1); 
+}

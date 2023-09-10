@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+   
+    width: 50px;
+}
+
+.LogoHeader{
+    display: flex;
+}
+
+h2{
+    margin-top: 0.5em;
+}

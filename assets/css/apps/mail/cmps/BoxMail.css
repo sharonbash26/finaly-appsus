@@ -1,0 +1,66 @@
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+
+}
+
+
+
+.to,
+.subject,
+.mailBody {
+
+    display: block;
+}
+
+.sendBtn {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    z-index: 999;
+    display: block;
+}
+
+button.sendBtn {
+    position: fixed;
+    z-index: 9999;
+    bottom: 20px;
+    left: 10px;
+}
+
+.sendBtn:hover {
+    background: #0056b3;
+}
+
+.boxMail-open {
+    background: white;
+    height: 600px;
+    position: fixed;
+    top: 300px;
+    left: 0;
+    width: 600px;
+    z-index: 999;
+    display: block;
+    padding: 5px;
+    border-radius: 10px;
+    border: 0;
+
+}
+
+.boxMail-open .email-content input,
+.boxMail-open .email-content textarea {
+    max-width: 100%;
+    width: 100%;
+    padding: 6px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 4px;
+    border-bottom: 1px solid #bbb;
+
+
+}
