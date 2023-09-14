@@ -1,6 +1,6 @@
 import { emailService } from '../../../services/email.service.js'
 import { MailDetails } from "../cmps/MailDetails.jsx"
-import { Logo } from "../cmps/logo.jsx"
+import { Logo } from "../cmps/Logo.jsx"
 import { Compose } from '../cmps/Compose.jsx'
 const { useState, useEffect } = React
 import { MailList } from "../cmps/MailList.jsx"
@@ -60,9 +60,9 @@ export function MailIndex() {
             </section>
                 {!selectedEmailId && (
                        
-                    <table>
+                    <div>
                         <MailList emails={emails} onSelectEmailId={onSelectEmailId} />
-                    </table>
+                    </div>
                 )}
                 {selectedEmailId && <MailDetails emails={emails} onBack={() => onSelectEmailId(null)}   onRemoveMail={onRemoveMail} mailId={selectedEmailId} />}
             </div>

@@ -3,7 +3,7 @@
    
 }
 
-.mail-preview td{
+.mail-preview p{
     padding: 1em;
     text-align: left;
 }
@@ -24,7 +24,7 @@
     background-color: rgb(243, 238, 238);
 
   }
-  .mail-preview td {
+  .mail-preview p {
     padding: 1em;
     width: 25%;
     white-space: nowrap; 

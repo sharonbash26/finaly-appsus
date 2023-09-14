@@ -5,12 +5,12 @@ export function MailPreview({ email }) {
     const previewMsg = email.body.split(' ').slice(0, 5).join(' ');
     return (
        
-            <tr className="mail-preview">
-                <td className="sender">{email.fromUser}</td>
-                <td>{email.subject}</td>
-                <td>{previewMsg}</td>
-                <td className="time">{utilService.formatTime(email.sentAt)}</td>
-            </tr>
+            <div className="mail-preview">
+                <p className="sender">{email.fromUser}</p>
+                <p>{email.subject}</p>
+                <p>{previewMsg}</p>
+                <p className="time">{utilService.formatTime(email.sentAt)}</p>
+            </div>
        
 
     )
