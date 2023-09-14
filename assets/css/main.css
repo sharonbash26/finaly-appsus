@@ -10,10 +10,8 @@
 /* @import './basics/layout.css'; */
 
 /* Views */
-@import './views/home.css';
+@import './views/Home.css';
 @import './views/About.css';
-
-
 
 @import './cmps/UserMsg.css';
 @import './cmps/AppHeader.css';
